@@ -5,6 +5,7 @@
 <title>bookMain</title>
 </head>
 <body>
+	<h1>update data updated</h1>
 	<h2>BOOK MAIN</h2>
 	<a href="bookList.do">BOOK LIST</a>
 	<a href="addForm.do">ADD BOOK</a>
