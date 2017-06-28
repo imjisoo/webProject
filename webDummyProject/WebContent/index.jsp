@@ -26,18 +26,9 @@ span:HOVER {
 }
 </style>
 </head>
-<body>
-<<<<<<< HEAD
-	<h1>change again</h1>
-	<h1>update data updated</h1>
-	<h2>BOOK MAIN</h2>
-	<a href="bookList.do">BOOK LIST</a>
-	<a href="addForm.do">ADD BOOK</a>
-	
+<body>	
 	
 
-=======
->>>>>>> 43b67341cf4fec620b7bb7abc9a647e2a4c35143
 	<div class="w3-card-4" id="container">
 		<header class="w3-container w3-teal"><h1>WELCOME</h1></header>
 		<div class="w3-container">
