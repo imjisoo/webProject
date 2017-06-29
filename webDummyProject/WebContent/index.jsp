@@ -26,7 +26,9 @@ span:HOVER {
 }
 </style>
 </head>
-<body>
+<body>	
+	
+
 	<div class="w3-card-4" id="container">
 		<header class="w3-container w3-teal"><h1>WELCOME</h1></header>
 		<div class="w3-container">
