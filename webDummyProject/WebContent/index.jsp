@@ -44,7 +44,7 @@ span:HOVER {
 				<div style="width: 100%; margin: 3px 0px;">
 					<div class="line leftArea">
 						<input type="submit" value="LOGIN" />
-						<button>JOIN</button>
+						<button onclick="location.href='bookList.do'">JOIN</button>
 					</div>
 					<div class="line rightArea">
 						<span>forget your ID or PW?</span>
