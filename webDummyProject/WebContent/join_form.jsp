@@ -70,7 +70,7 @@
 						<td>
 							<input type="text" name="userEmailId" />
 							@
-							<select class="w3-select" name="userEmailAddress">
+							<select name="userEmailAddress">
 								<option value="gmail.com">gmail.com</option>
 								<option value="naver.com">naver.com</option>
 								<option value="daum.net">daum.net</option>

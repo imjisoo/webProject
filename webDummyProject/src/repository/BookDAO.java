@@ -7,7 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import mapper.BookMapper;
-import vo.MemberVO;
+import vo.BookVO;
 
 @Component("dao")
 public class BookDAO {
@@ -21,7 +21,7 @@ public class BookDAO {
 		
 	}
 	
-	public int insertBook (MemberVO book) {
+	public int insertBook (BookVO book) {
 		
 		BookMapper mapper = session.getMapper(BookMapper.class);
 		
@@ -29,7 +29,7 @@ public class BookDAO {
 		
 	}
 	
-	public MemberVO selectOne (int bookNum) {
+	public BookVO selectOne (int bookNum) {
 		
 		BookMapper mapper = session.getMapper(BookMapper.class);
 		
@@ -37,7 +37,7 @@ public class BookDAO {
 		
 	}
 	
-	public List<MemberVO> selectAll () {
+	public List<BookVO> selectAll () {
 		
 		BookMapper mapper = session.getMapper(BookMapper.class);
 		
