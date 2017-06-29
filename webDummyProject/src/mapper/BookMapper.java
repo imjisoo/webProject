@@ -2,14 +2,14 @@ package mapper;
 
 import java.util.List;
 
-import vo.BookVO;
+import vo.MemberVO;
 
 public interface BookMapper {
 	
-	public int insert (BookVO book);
+	public int insert (MemberVO book);
 	
-	public BookVO selectOne (int bookNum);
+	public MemberVO selectOne (int bookNum);
 	
-	public List<BookVO> selectAll ();
+	public List<MemberVO> selectAll ();
 	
 }
