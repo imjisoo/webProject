@@ -6,7 +6,7 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <style type="text/css">
 #container {
-	width: 50%;
+	width: 500px;
 	margin: auto;
 	margin-top: 15%;
 }
@@ -14,25 +14,13 @@ span:HOVER {
 	text-decoration: underline;
 	cursor: pointer;
 }
-.line {
-	width: 49%;
-	display: inline-block;
-}
-.rightArea {
-	text-align: right;
-}
-.leftArea {
-	text-align: left;
-}
 </style>
 </head>
 <body>	
-	
-
 	<div class="w3-card-4" id="container">
 		<header class="w3-container w3-teal"><h1>WELCOME</h1></header>
-		<div class="w3-container">
-			<form action="javascript:void(0)">
+		<div class="w3-container w3-margin">
+			<form action="login.do" method="post">
 				<table class="w3-table">
 					<tr>
 						<th>ID</th>
@@ -43,12 +31,14 @@ span:HOVER {
 						<td><input type="text" name="userPw" /></td>
 					</tr>
 				</table>
-				<div style="width: 100%; margin: 3px 0px;">
-					<div class="line leftArea">
+				<div>
+					<div class="w3-third">
 						<input type="submit" value="LOGIN" />
-						<button onclick="location.href='bookList.do'">JOIN</button>
+						<a href="joinForm.do" style="text-decoration: none;">
+							<input type="button" onclick="javascript:void(0)" value="JOIN" />
+						</a>
 					</div>
-					<div class="line rightArea">
+					<div class="w3-twothird w3-right-align">
 						<span>forget your ID or PW?</span>
 					</div>
 				</div>
