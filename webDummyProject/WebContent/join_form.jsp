@@ -1,5 +1,4 @@
 <%@ page language="java" contentType="text/html; charset=EUC-KR" pageEncoding="EUC-KR"%>
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -79,9 +78,9 @@
 					</tr>
 					<tr>
 						<td colspan="2">
-							<input class="w3-radio" type="radio" name="userType" value="CUS" /> CUSTOMER
-							<input class="w3-radio" type="radio" name="userType" value="VEN" /> VENDOR
-							<input class="w3-radio" type="radio" name="userType" value="FAC" /> FAC
+							<input type="radio" name="userType" value="CUS" /> CUSTOMER
+							<input type="radio" name="userType" value="VEN" /> VENDOR
+							<input type="radio" name="userType" value="FAC" /> FAC
 						</td>
 					</tr>
 					<tr>
