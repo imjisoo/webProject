@@ -4,6 +4,7 @@
 <head>
 <title>JUNGDUCK92</title>
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="/css/main.css">
 <style type="text/css">
 #container {
 	width: 500px;
@@ -16,7 +17,7 @@ span:HOVER {
 }
 </style>
 </head>
-<body>	
+<body>
 	<div class="w3-card-4" id="container">
 		<header class="w3-container w3-teal"><h1>WELCOME</h1></header>
 		<div class="w3-container w3-margin">
