@@ -5,6 +5,7 @@
 <head>
 <title>JUNGDUCK92</title>
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="/css/main.css">
 <style type="text/css">
 #container {
 	width: 800px;
@@ -39,11 +40,17 @@
 			
 		});
 		
+		$("#idCheck").click(function () {
+			
+			$("#idCheckPopUp").css("display", "block");
+			
+		});
+		
 	});
 </script>
 </head>
 <body>
-	<div class="w3-container" id="container">
+	<div class=w3-card-4 id="container">
 		<header class="w3-container w3-teal"><h1>SIGN UP</h1></header>
 		<div class="w3-container w3-margin">
 			<form action="join.do" method="post">
@@ -52,7 +59,10 @@
 					<col width="80%"/>
 					<tr>
 						<th>ID</th>
-						<td><input type="text" name="userId" size="20" /></td>
+						<td>
+							<input type="text" name="userId" size="20" />
+							<input type="button" onclick="javascript:void(0)" id="idCheck" value="중복확인" />
+						</td>
 					</tr>
 					<tr>
 						<th>PW</th>
@@ -98,6 +108,18 @@
 			</form>
 		</div>
 		<footer class="w3-container w3-teal w3-right-align"><h5>@jungduck92</h5></footer>
+	</div>
+	<div id="idCheckPopUp" class="w3-modal">
+		<div class="w3-modal-content">
+			<header class="w3-container w3-teal"> 
+				<span onclick="document.getElementById('idCheckPopUp').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+				<h2>WARNING</h2>
+			</header>
+			<div class="w3-container">
+				
+			</div>
+			<footer class="w3-container w3-teal w3-right-align"><h5>@jungduck92</h5></footer>
+		</div>
 	</div>
 </body>
 </html>

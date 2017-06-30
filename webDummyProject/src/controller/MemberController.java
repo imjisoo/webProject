@@ -27,4 +27,15 @@ public class MemberController {
 		
 	}
 	
+	@RequestMapping("/login")
+	public ModelAndView login () {
+		
+		ModelAndView mv = new ModelAndView();
+		
+		mv.setViewName("main_list");
+		
+		return mv;
+		
+	}
+	
 }
